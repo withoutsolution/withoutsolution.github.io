@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /icon/*
+Disallow: /music/*
+
+Allow: /linux/*

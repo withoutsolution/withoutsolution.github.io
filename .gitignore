@@ -1,0 +1,14 @@
+# 依赖相关
+node_modules
+
+# 构建产物
+.cache
+cache
+dist
+
+# IDE 相关
+.idea
+.vscode
+
+# macOS 系统文件
+.DS_Store
