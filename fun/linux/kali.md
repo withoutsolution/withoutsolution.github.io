@@ -7,7 +7,7 @@ categories:
 tags: [Markdown, linux, kali]
 description: kali Fundamentals
 draft: false
-sidebar: true
+sidebar: false
 outline: 2
 ---
 
@@ -68,7 +68,7 @@ apt-get install kde-full
 
 ---
 
-## 1.proxychains
+## 2.proxychains
 
 ```bash
 sudo apt-get install proxychains4
@@ -78,14 +78,14 @@ sudo vim /etc/proxychains4.conf
 
 ---
 
-## 2.SSH
+## 3.SSH
 
 ```bash
 sudo apt-get install ssh
 ```
 
 ```BASH
-systemctl enable ssh
+sudo systemctl enable ssh
 ```
 
 ```BASH
@@ -93,3 +93,14 @@ sudo systemctl start ssh
 sudo systemctl status ssh
 ```
 
+---
+
+## 4.OpenVPN
+
+```bash
+sudo apt-get install openvpn
+```
+
+```bash
+sudo openvpn --config yourname.ovpn --socks-proxy proxyip port
+```

@@ -76,10 +76,10 @@ export const nav = [
   {
     text: 'linux',
     items: [
-      { text: 'linuxCommands', link: '/linux/linuxCommands.md' },
-      { text: 'archlinuxApp', link: '/linux/archlinuxApp.md' },
-      { text: 'linux shells', link: '/linux/LinuxShell.md' },
+      { text: 'commands', link: '/linux/linuxCommands.md' },
       { text: 'kali', link: '/linux/kali.md' },
+      { text: 'shells', link: '/linux/LinuxShell.md' },
+      { text: 'arch', link: '/linux/archlinuxApp.md' },
     ]
   },
   // {
